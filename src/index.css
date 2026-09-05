@@ -258,10 +258,6 @@ button {
   border-radius: 5px;
 }
 
-.logo-code {
-  color: #64748B;
-  font-weight: 600;
-}
 
 .logo {
   font-size: 1.8rem;
@@ -368,7 +364,7 @@ button {
      /* =================================
      HERO CONTENT
      ================================= */
-  
+ 
      .home-content {
        position: relative;
   
@@ -376,10 +372,8 @@ button {
   
        max-width: 900px;
      }
-  
-  
      /* =================================
-     STATUS BADGE
+             STATUS BADGE
      ================================= */
   
      .home-badge {
@@ -910,6 +904,7 @@ button {
 .project-links a:hover {
   opacity: 0.6;
 }
+
 
 /* =================================
    CONTACT SECTION

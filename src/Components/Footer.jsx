@@ -26,10 +26,7 @@ function Footer() {
       {/* Copyright */}
       <div className="footer-bottom">
         <p>© 2026 Dtech.&lt;/&gt;. All rights reserved.</p>
-{/* 
-        <a href="#home" className="back-to-top">
-  Back to top ↑ */}
-{/* </a> */}
+
 
 <a href="#home" className="back-to-top">
   ↑

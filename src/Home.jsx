@@ -47,6 +47,7 @@ function Home() {
           I create modern, responsive and user-focused digital
           experiences with React, JavaScript and modern web technologies.
         </p>
+        
 
         {/* Call-to-action buttons */}
         <div className="home-buttons">
