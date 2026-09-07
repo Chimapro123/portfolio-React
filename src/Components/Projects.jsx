@@ -33,11 +33,11 @@ function Projects() {
             </div>
 
             <div className="project-links">
-              <a href="/ComfyClient/index.html" target="_blank" rel="noopener noreferrer">
+              <a href="https://chimapro123.github.io/ComfyClient-app/" target="_blank" rel="noopener noreferrer">
                 Live Demo ↗
               </a>
 
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Chimapro123/ComfyClient-app" target="_blank" rel="noopener noreferrer">
                 GitHub ↗
               </a>
             </div>
@@ -70,7 +70,7 @@ function Projects() {
                 Live Demo ↗
               </a>
 
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Chimapro123" target="_blank" rel="noopener noreferrer">
                 GitHub ↗
               </a>
             </div>
@@ -132,7 +132,7 @@ function Projects() {
                 Live Demo ↗
               </a>
 
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Chimapro123" target="_blank" rel="noopener noreferrer">
                 GitHub ↗
               </a>
             </div>
@@ -162,7 +162,7 @@ function Projects() {
                 Live Demo ↗
               </a>
 
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Chimapro123" target="_blank" rel="noopener noreferrer">
                 GitHub ↗
               </a>
             </div>
@@ -202,7 +202,7 @@ function Projects() {
                 Live Demo ↗
               </a>
 
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Chimapro123" target="_blank" rel="noopener noreferrer">
                 GitHub ↗
               </a>
             </div>
@@ -235,7 +235,7 @@ function Projects() {
                 Live Demo ↗
               </a>
 
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Chimapro123" target="_blank" rel="noopener noreferrer">
                 GitHub ↗
               </a>
             </div>
