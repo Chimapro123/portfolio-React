@@ -198,7 +198,7 @@ function Projects() {
             </div>
 
             <div className="project-links">
-              <a href="https://www.figma.com/design/ikS5PhFWx4DmKpkzh1GwlZ/Untitled?node-id=1-5&p=f&t=5zvMTVx1Gx7Q8GYk-0" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.figma.com/proto/ikS5PhFWx4DmKpkzh1GwlZ/Untitled?node-id=76-222&t=STJU8tnAK5gvD9rb-0&scaling=scale-down&content-scaling=fixed&page-id=1%3A5&starting-point-node-id=76%3A222" target="_blank" rel="noopener noreferrer">
                 Live Demo ↗
               </a>
 
@@ -306,8 +306,8 @@ function Projects() {
             </div>
 
             <div className="project-links">
-              <a href="projects\SCHOOLms.exe" target="_blank" rel="noopener noreferrer">
-                Live Demo ↗
+              <a href="/SCHOOLms.exe" download target="_blank" rel="noopener noreferrer">
+                 Download SMS ↗
               </a>
 
               <a href="#" target="_blank" rel="noopener noreferrer">
@@ -341,7 +341,7 @@ function Projects() {
 
             <div className="project-links">
               <a href="" target="_blank" rel="noopener noreferrer">
-                Live Demo ↗
+                Download CMS ↗
               </a>
 
               <a href="#" target="_blank" rel="noopener noreferrer">
@@ -377,7 +377,7 @@ function Projects() {
 
             <div className="project-links">
               <a href="" target="_blank" rel="noopener noreferrer">
-                Live Demo ↗
+                Download BMS ↗
               </a>
 
               <a href="#" target="_blank" rel="noopener noreferrer">

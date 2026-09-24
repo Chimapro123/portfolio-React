@@ -7,6 +7,7 @@ import Skills from './Components/Skills'
 import Projects from './Components/Projects'
 import Contacts from './Components/Contacts'
 import Cursor from './Components/Cursor'
+import Reviews from './Components/Reviews'
 
 
 
@@ -18,6 +19,7 @@ export default function App() {
       <About />
       <Skills />
       <Projects />
+      <Reviews />
       <Contacts />
       <Footer />
       <Cursor />

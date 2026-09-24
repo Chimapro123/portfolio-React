@@ -1,34 +1,23 @@
-import { useState } from 'react'
-import {
-  FaBars,
-  FaTimes,
-  FaHome,
-  FaUser,
-  FaCode,
-  FaBriefcase,
-  FaEnvelope
-} from 'react-icons/fa'
+import { useState } from "react"; import { FaBars, FaTimes, FaHome, FaUser, FaCode, FaBriefcase, FaEnvelope, FaStarHalfAlt, } from "react-icons/fa";
 
 function Header() {
 
-  // Keeps track of whether the sidebar is open or closed
-  const [menuOpen, setMenuOpen] = useState(false)
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  // Closes the sidebar
-  const closeMenu = () => {
-    setMenuOpen(false)
-  }
+  const [showLogoMessage, setShowLogoMessage] = useState(false);
 
-  return (
-    <header className="header">
+  const closeMenu = () => { setMenuOpen(false); };
 
-      {/* Logo */}
-      <a href="#home" className="logo" onClick={closeMenu}>
-      <span className="logo-D">D</span>
-<span className="logo-tech">tech</span>
+  return ( <header className="header">
 
-      </a>
+    <a href="#home" className="logo" onClick={closeMenu} onMouseEnter={() => setShowLogoMessage(true)} onMouseLeave={() => setShowLogoMessage(false)} >
+<span   className="logo-tech">→   </span>
+      <span className="logo-D">D</span> <span className="logo-tech">tech</span>
 
+      {showLogoMessage && ( <span className="logo-tooltip"> Hi,Do you like what you see?</span> )} </a>
+
+   
+  
       {/* Hamburger button */}
       <button
         className="menu-button"
@@ -91,6 +80,13 @@ function Header() {
               <a href="#projects" onClick={closeMenu}>
                 <FaBriefcase />
                 <span>Projects</span>
+              </a>
+            </li>
+
+              <li>
+              <a href="#reviews" onClick={closeMenu}>
+                <FaStarHalfAlt/>
+                <span>Reviews</span>
               </a>
             </li>
 

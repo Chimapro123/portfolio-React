@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="dtechPurple" x1="105" y1="110" x2="425" y2="405" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7136D9"/>
+      <stop offset="1" stop-color="#4B239C"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dtech logo mark: the stylized "D" from the supplied logo -->
+  <path
+    fill="url(#dtechPurple)"
+    d="M103 116
+       L176 70
+       C231 35 298 39 347 73
+       C401 110 431 172 433 239
+       C436 310 404 374 348 411
+       L286 451
+       L103 116
+       Z
+
+       M216 171
+       L318 355
+       L345 338
+       C380 315 397 279 396 239
+       C395 199 377 164 347 144
+       C318 124 282 119 252 133
+       L216 151
+       Z"
+    fill-rule="evenodd"
+  />
+</svg>
