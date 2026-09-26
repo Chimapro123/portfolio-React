@@ -27,9 +27,10 @@ function Projects() {
             </p>
 
             <div className="project-tech">
-              <span>React</span>
-              <span>JavaScript</span>
+                <span>HTML</span>
               <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Responsive Web Design</span>
             </div>
 
             <div className="project-links">
@@ -60,9 +61,10 @@ function Projects() {
             </p>
 
             <div className="project-tech">
-              <span>React</span>
-              <span>JavaScript</span>
+              <span>HTML</span>
               <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Responsive Web Design</span>
             </div>
 
             <div className="project-links">
@@ -70,7 +72,7 @@ function Projects() {
                 Live Demo ↗
               </a>
 
-              <a href="https://github.com/Chimapro123" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Chimapro123/portfolio/blob/main/gpt.html" target="_blank" rel="noopener noreferrer">
                 GitHub ↗
               </a>
             </div>
@@ -94,15 +96,18 @@ function Projects() {
             <div className="project-tech">
               <span>React</span>
               <span>Node.js</span>
+              <span>Responsive web design</span>
+              <span>React.js</span>
+              <span>CSS</span>
               <span>JavaScript</span>
             </div>
 
             <div className="project-links">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://chimapro123.github.io/CareryDave/" target="_blank" rel="noopener noreferrer">
                 Live Demo ↗
               </a>
 
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Chimapro123/CareryDave" target="_blank" rel="noopener noreferrer">
                 GitHub ↗
               </a>
             </div>
@@ -124,6 +129,7 @@ function Projects() {
             <div className="project-tech">
               <span>HTML</span>
               <span>CSS</span>
+              <span>Responsive web design</span>
               <span>JavaScript</span>
             </div>
 
@@ -154,6 +160,7 @@ function Projects() {
             <div className="project-tech">
               <span>HTML</span>
               <span>CSS</span>
+              <span>Responsive web design</span>
               <span>JavaScript</span>
             </div>
 
@@ -162,13 +169,45 @@ function Projects() {
                 Live Demo ↗
               </a>
 
-              <a href="https://github.com/Chimapro123" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Chimapro123/portfolio/blob/main/helen.html" target="_blank" rel="noopener noreferrer">
                 GitHub ↗
               </a>
             </div>
 
           </div>
         </article>
+        {/* Project 6 */}
+        <article className="project-card">
+          <div className="project-content">
+
+            <p className="project-number">06</p>
+
+            <h3>GATDABLESS GROUP — Corporate Website</h3>
+
+            <p>
+           A modern, responsive corporate website I built for GATDABLESS GROUP, showcasing its Real Estate, Travel & Tours, and Media services through a clean, professional, and easy-to-navigate design.
+            </p>
+
+            <div className="project-tech">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+              <span>Responsive Web Design</span>
+            </div>
+
+            <div className="project-links">
+              <a href="https://chimapro123.github.io/GATDABLESS-GROUP/" target="_blank" rel="noopener noreferrer">
+                Live Demo ↗
+              </a>
+
+              <a href="https://github.com/Chimapro123/GATDABLESS-GROUP" target="_blank" rel="noopener noreferrer">
+                GitHub ↗
+              </a>
+            </div>
+
+          </div>
+        </article>
+
  
        </div>
     <div className="section-heading">
@@ -185,16 +224,15 @@ function Projects() {
 
             <p className="project-number">01</p>
 
-            <h3>Figma for X/twitter</h3>
+            <h3>UI/UX for X/twitter</h3>
 
             <p>
              I created this UI/UX design for a school project built, 
             </p>
 
             <div className="project-tech">
-              <span>React</span>
-              <span>JavaScript</span>
-              <span>CSS</span>
+              <span>Figma</span>
+             
             </div>
 
             <div className="project-links">
@@ -216,58 +254,23 @@ function Projects() {
 
             <p className="project-number">02</p>
 
-            <h3>Chi-Shop</h3>
+            <h3>UI/UX for Opay banking </h3>
 
             <p>
-              A bakery e-commerce website created to showcase products
-              and provide customers with a smooth and simple shopping
-              experience.
+             Designed a modern OPay-inspired UI/UX concept focused on creating a simple, clear, and user-friendly digital payment experience. The project explores intuitive navigation, clean layouts, easy access to key financial services, and a smooth user flow across the interface. I focused on making the design practical and visually consistent while keeping the experience familiar and easy to use.
             </p>
 
             <div className="project-tech">
-              <span>React</span>
-              <span>JavaScript</span>
-              <span>CSS</span>
+              <span>Figma</span>
+           
             </div>
 
             <div className="project-links">
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Chimapro123" target="_blank" rel="noopener noreferrer">
                 Live Demo ↗
               </a>
 
               <a href="https://github.com/Chimapro123" target="_blank" rel="noopener noreferrer">
-                GitHub ↗
-              </a>
-            </div>
-
-          </div>
-        </article>
-
-        {/* Project 3 */}
-        <article className="project-card">
-          <div className="project-content">
-
-            <p className="project-number">03</p>
-
-            <h3>CareryDave</h3>
-
-            <p>
-              An AI-powered personal health assistant concept designed
-              to help users track important daily health information.
-            </p>
-
-            <div className="project-tech">
-              <span>React</span>
-              <span>Node.js</span>
-              <span>JavaScript</span>
-            </div>
-
-            <div className="project-links">
-              <a href="#" target="_blank" rel="noopener noreferrer">
-                Live Demo ↗
-              </a>
-
-              <a href="#" target="_blank" rel="noopener noreferrer">
                 GitHub ↗
               </a>
             </div>

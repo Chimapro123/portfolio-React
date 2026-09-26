@@ -1,4 +1,9 @@
-import { useState } from "react"; import { FaBars, FaTimes, FaHome, FaUser, FaCode, FaBriefcase, FaEnvelope, FaStarHalfAlt, } from "react-icons/fa";
+import { useState } from "react";
+import { FaFilePdf } from "react-icons/fa";
+import { FaBars,
+   FaTimes, FaHome, FaUser, FaCode, FaBriefcase,
+ 
+  FaEnvelope, FaStarHalfAlt, } from "react-icons/fa";
 
 function Header() {
 
@@ -96,6 +101,19 @@ function Header() {
                 <span>Contact Me</span>
               </a>
             </li>
+<li>
+  <a
+    href={`${import.meta.env.BASE_URL}Chima_David_Eze_Resume.pdf`}
+    target="_blank"
+    rel="noopener noreferrer"
+    onClick={closeMenu}
+  >
+    <FaFilePdf />
+    <span>View Resume</span>
+  </a>
+</li>
+
+        
 
           </ul>
         </nav>
