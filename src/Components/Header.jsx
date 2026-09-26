@@ -102,10 +102,9 @@ function Header() {
               </a>
             </li>
 
-
             <li>
   <a
-    href={`${import.meta.env.BASE_URL}Chima_David_Eze_Resume.pdf`}
+    href="/Chima_David_Eze_Resume.docx"
     target="_blank"
     rel="noopener noreferrer"
     onClick={closeMenu}
@@ -114,8 +113,6 @@ function Header() {
     <span>View Resume</span>
   </a>
 </li>
-
-
 
           </ul>
         </nav>
