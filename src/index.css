@@ -1168,6 +1168,336 @@ background-color: white;
   color: #ffffff;
 }
 
+/* =========================================
+   FLOATING MESSAGE BUTTON
+   Stays visible while the user scrolls
+========================================= */
+
+.floating-message-button {
+  position: fixed;
+  right: 25px;
+  bottom: 25px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  padding: 13px 18px;
+
+  border: none;
+  border-radius: 30px;
+
+  background: #111;
+  color: #fff;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+
+  z-index: 9999;
+
+  transition: all 0.3s ease;
+}
+
+
+/* Message button icon */
+.floating-message-button svg {
+  font-size: 17px;
+}
+
+
+/* Hover effect */
+.floating-message-button:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+
+/* =========================================
+   MESSAGE BOX
+   The box that opens when "Message Me"
+   is clicked
+========================================= */
+
+.message-box {
+  position: fixed;
+
+  right: 25px;
+  bottom: 85px;
+
+  width: 350px;
+
+  background: #fff;
+
+  border-radius: 15px;
+
+  padding: 20px;
+
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.25);
+
+  z-index: 10000;
+
+  animation: messageBoxAppear 0.25s ease;
+}
+
+
+/* Message box opening animation */
+@keyframes messageBoxAppear {
+  from {
+    opacity: 0;
+    transform: translateY(15px) scale(0.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+
+/* =========================================
+   MESSAGE BOX HEADER
+========================================= */
+
+.message-header {
+  display: flex;
+
+  align-items: center;
+  justify-content: space-between;
+
+  margin-bottom: 18px;
+}
+
+
+/* Message box title */
+.message-header h3 {
+  margin: 0;
+
+  font-size: 19px;
+  font-weight: 700;
+
+  color: #111;
+}
+
+
+/* Close button */
+.message-header button {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  width: 32px;
+  height: 32px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: #f1f1f1;
+  color: #111;
+
+  cursor: pointer;
+
+  transition: all 0.2s ease;
+}
+
+
+/* Close button hover */
+.message-header button:hover {
+  background: #ddd;
+
+  transform: rotate(90deg);
+}
+
+
+/* =========================================
+   MESSAGE FORM
+========================================= */
+
+.message-box form {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 12px;
+}
+
+
+/* Inputs and textarea */
+.message-box input,
+.message-box textarea {
+  width: 100%;
+
+  box-sizing: border-box;
+
+  padding: 12px 14px;
+
+  border: 1px solid #ddd;
+
+  border-radius: 8px;
+
+  background: #fafafa;
+
+  color: #111;
+
+  font-family: inherit;
+
+  font-size: 14px;
+
+  outline: none;
+
+  transition: border 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+
+/* Input focus */
+.message-box input:focus,
+.message-box textarea:focus {
+  border-color: #111;
+
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.08);
+
+  background: #fff;
+}
+
+
+/* Textarea settings */
+.message-box textarea {
+  resize: vertical;
+
+  min-height: 110px;
+}
+
+
+/* Placeholder */
+.message-box input::placeholder,
+.message-box textarea::placeholder {
+  color: #888;
+}
+
+
+/* =========================================
+   SEND MESSAGE BUTTON
+========================================= */
+
+.send-message-button {
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+
+  gap: 8px;
+
+  width: 100%;
+
+  padding: 12px;
+
+  margin-top: 4px;
+
+  border: none;
+
+  border-radius: 8px;
+
+  background: #111;
+  color: #fff;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+
+/* Send button hover */
+.send-message-button:hover {
+  background: #333;
+
+  transform: translateY(-2px);
+}
+
+
+
+/* =========================================
+   MOBILE RESPONSIVE DESIGN
+========================================= */
+
+@media (max-width: 600px) {
+
+  /* Floating button */
+  .floating-message-button {
+    right: 15px;
+    bottom: 15px;
+
+    padding: 12px 15px;
+
+    font-size: 13px;
+  }
+
+
+  /* Message box */
+  .message-box {
+    right: 15px;
+    bottom: 75px;
+
+    width: calc(100% - 30px);
+
+    max-width: 350px;
+
+    padding: 18px;
+  }
+
+}
+
+
+/* =========================================
+   VERY SMALL PHONES
+========================================= */
+
+@media (max-width: 380px) {
+
+  .floating-message-button {
+    right: 12px;
+    bottom: 12px;
+
+    padding: 11px 13px;
+  }
+
+  .floating-message-button span {
+    display: none;
+  }
+
+  .floating-message-button {
+    width: 48px;
+    height: 48px;
+
+    padding: 0;
+
+    justify-content: center;
+  }
+
+  .floating-message-button svg {
+    font-size: 18px;
+  }
+
+
+  .message-box {
+    right: 10px;
+    bottom: 70px;
+
+    width: calc(100% - 20px);
+
+    padding: 16px;
+  }
+
+}
+
+
 /* =================================
    BACK TO TOP BUTTON
    ================================= */
@@ -1176,6 +1506,7 @@ background-color: white;
   position: fixed;
   bottom: 35px;
   right: 35px;
+  margin-bottom: 2.5rem;
 
   width: 50px;
   height: 50px;
