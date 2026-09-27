@@ -104,7 +104,7 @@ function Header() {
 
             <li>
   <a
-    href="/Chima_David_Eze_Resume.docx"
+    href="https://chimapro123.github.io/portfolio/resume.png"
     target="_blank"
     rel="noopener noreferrer"
     onClick={closeMenu}
