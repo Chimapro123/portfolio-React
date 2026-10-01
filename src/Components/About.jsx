@@ -36,6 +36,7 @@ function About() {
           <p>
             As a developer, I also believe less is more. I build clean, professional websites that focus on what users actually need instead of filling the screen with unnecessary information.
           </p>
+          <hr />
         </div>
 
         {/* Quick information */}

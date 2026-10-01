@@ -216,7 +216,7 @@ function Projects() {
             <h3>Bailord App</h3>
 
             <p>
-Bailord is a modern technology and lifestyle company providing quality smartphones, tablets, laptops, audio devices, power solutions, and smart accessories. They  also offer energy solutions and property services, helping individuals and businesses access reliable technology, power, and real estate solutions in one trusted platform.
+Bailord is a modern technology and lifestyle company providing quality smartphones, tablets, laptops, audio devices, power solutions, and smart accessories. 
             </p>
 
             <div className="project-tech">
