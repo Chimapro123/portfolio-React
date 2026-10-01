@@ -14,7 +14,7 @@ function About() {
         {/* Main about text */}
         <div className="about-text">
           <p>
-         My name is Chima David Eze. I am a self-taught developer who has been coding for the past two years. I started by teaching myself programming and building projects independently. In 2026, I officially enrolled at Aptech, a global vocational training and IT education centre, where I recently graduated.
+         My name is Chima David Eze. I am a self-taught developer who has been coding for the past two years. I started by teaching myself programming and building projects independently. In 2026, I officially enrolled at Aptech, a global vocational training and IT education centre,where I recently graduated with certifications in CPISM and Python Development, with a focus on Django.
           </p>
 
           <p>
@@ -45,16 +45,19 @@ function About() {
           <div className="info-box">
             <h3>Frontend</h3>
             <p>React, JavaScript, HTML & CSS</p>
+            <hr />
           </div>
 
           <div className="info-box">
             <h3>Tools</h3>
             <p>Git, GitHub, Vite & VS Code</p>
+            <hr />
           </div>
 
           <div className="info-box">
             <h3>Goal</h3>
             <p>Build great products and grow with a strong team</p>
+            <hr />
           </div>
            <div className="info-box">
             <h3>Backend</h3>
@@ -69,7 +72,7 @@ function About() {
   <li>Git/GitHub — version control</li>
   <li>Python — scripting and automation</li>
 </ul>
-
+<hr />
           </div>
 
         </div>

@@ -22,7 +22,10 @@ body {
 html {
   scroll-behavior: smooth ;
 }
-
+hr {
+  color: #00ff88;
+  background-color: #00ff88;
+}
 /* Remove default link styling */
 a {
   text-decoration: none;

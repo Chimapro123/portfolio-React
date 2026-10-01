@@ -98,7 +98,10 @@ emailjs
       ========================== */}
       <div className="footer-bottom">
 
-        <p>© 2026 Dtech. All rights reserved.</p>
+        <a   href="https://wa.me/2348038897836"
+          // target="_blank"
+          rel="noopener noreferrer"
+       ><p>© 2026 Dtech. All rights reserved.</p></a>
 
         {/* Back to top button */}
         <a href="#home" className="back-to-top">
