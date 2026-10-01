@@ -230,11 +230,11 @@ Bailord is a modern technology and lifestyle company providing quality smartphon
             </div>
 
             <div className="project-links">
-              <a href="https://chimapro123.github.io/Bailord-app/" download target="_blank" rel="noopener noreferrer">
+              <a href="https://chimapro123.github.io/GATDABLESS-GROUP/" download target="_blank" rel="noopener noreferrer">
                 Live Demo ↗
               </a>
 
-              <a href="https://github.com/Chimapro123/Bailord-app" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Chimapro123/GATDABLESS-GROUP" target="_blank" rel="noopener noreferrer">
                 GitHub ↗
               </a>
             </div>
@@ -292,7 +292,7 @@ Bailord is a modern technology and lifestyle company providing quality smartphon
             <h3>UI/UX for Opay banking </h3>
 
             <p>
-             Designed a modern OPay-inspired UI/UX concept focused on creating a simple, clear, and user-friendly digital payment experience. The project explores intuitive navigation, clean layouts, easy access to key financial services, and a smooth user flow across the interface. I focused on making the design practical and visually consistent while keeping the experience familiar and easy to use.
+             Designed a modern OPay-inspired UI/UX concept focused on creating a simple, clear, and user-friendly digital payment experience. 
             </p>
 
             <div className="project-tech">
