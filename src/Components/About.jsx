@@ -57,16 +57,18 @@ function About() {
           </div>
            <div className="info-box">
             <h3>Backend</h3>
-            <p> <ul>
-               <li> Node.js → runs JavaScript on the server</li>
-<li>Express.js → helps build backend APIs and servers</li>
-<li>MongoDB → stores data</li>
-<li>MySQL/PostgreSQL → databases</li>
-<li>REST API → lets the frontend communicate with the backend</li>
-<li>JWT / Authentication → handles user login and security</li>
-<li>Git/GitHub → manages and stores your code</li>
+            <ul>
+  <li>Node.js & Express.js — backend and APIs</li>
+  <li>JavaScript — server-side logic</li>
+  <li>Supabase — backend and database services</li>
+  <li>MySQL/PostgreSQL — databases</li>
+  <li>REST API — frontend/backend communication</li>
+  <li>JWT — authentication and security</li>
+  <li>EmailJS — email functionality</li>
+  <li>Git/GitHub — version control</li>
+  <li>Python — scripting and automation</li>
 </ul>
-</p>
+
           </div>
 
         </div>

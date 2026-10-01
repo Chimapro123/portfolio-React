@@ -32,7 +32,7 @@ function ContactMe() {
 
         {/* Facebook */}
         <a
-          href="https://web.facebook.com/people/Chiboy-Yagi/pfbid02UArY8sai1ndCzZqAnXcuHo155nqizC6MamKCzKimZwhgJNC713qnB398WjMMNRSel/?mibextid=wwXIfr&rdid=KJp851EqdOlxipuL&share_url=https%3A%2F%2Fweb.facebook.com%2Fshare%2F1DU6HCD9By%2F%3Fmibextid%3DwwXIfr%26_rdc%3D1%26_rdr"
+          href="https://www.facebook.com/share/19cjrsLC8V/?mibextid=wwXIfr"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-link facebook-link"
@@ -95,7 +95,7 @@ function ContactMe() {
 
         {/* Phone */}
         <a
-          href="tel:+2348127035742"
+          href="tel:+2348038897836"
           className="contact-link
           phone-link"
           aria-label="Phone"
@@ -106,7 +106,7 @@ function ContactMe() {
 
         {/* WhatsApp */}
         <a
-          href="https://wa.me/2348127035742"
+          href="https://wa.me/2348038897836"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-link whatsapp-link"

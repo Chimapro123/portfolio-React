@@ -47,6 +47,62 @@ function Skills() {
           <p>Developing fast modern frontend applications.</p>
         </div>
 
+         {/* Generative AI */}
+        <div className="skill-card">
+          <h3>Generative AI</h3>
+          <p>Skilled in using Generative AI tools to improve productivity, generate ideas, and create efficient digital solutions.
+</p>
+
+        </div>
+
+        {/* Python */}
+        <div className="skill-card">
+          <h3>Python</h3>
+          <p>Developing efficient and scalable backend solutions.</p>
+        </div>
+
+        {/* Django */}
+        <div className="skill-card">
+          <h3>Django</h3>
+          <p>Building robust and secure web applications.</p>
+        </div>
+
+        {/* Sql */}
+        <div className="skill-card">
+          <h3>Sql</h3>
+          <p>Basic database querying and management.</p>
+        </div>
+
+        {/* UX/UI Design */}
+        <div className="skill-card">
+          <h3>UX/UI Design</h3>
+          <p>Creating intuitive and visually appealing user experiences.</p>
+        </div>
+
+        {/* Microsoft Office */}
+        <div className="skill-card">
+          <h3>Microsoft Office</h3>
+          <h4>Word, Excel, and PowerPoint.</h4>
+          <p>Proficient in using Microsoft Office Suite for productivity and collaboration.</p>
+        </div>
+
+        {/* Responsive web design */}
+        <div className="skill-card">
+          <h3>Responsive Web Design</h3>
+          <p>Creating websites that adapt to different screen sizes and devices.</p>
+        </div>
+
+        {/* REST APIs */}
+        <div className="skill-card">
+          <h3>REST APIs</h3>
+          <p>Connecting frontend applications to backend services.</p>
+        </div>
+        {/* C Programming */}
+        <div className="skill-card">
+          <h3>C Programming</h3>
+          <p>Developing efficient and reliable software solutions.</p>
+        </div>
+
       </div>
 
     </section>

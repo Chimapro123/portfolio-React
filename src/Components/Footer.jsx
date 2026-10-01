@@ -98,7 +98,7 @@ emailjs
       ========================== */}
       <div className="footer-bottom">
 
-        <p>© 2026 Dtech.&lt;/&gt;. All rights reserved.</p>
+        <p>© 2026 Dtech. All rights reserved.</p>
 
         {/* Back to top button */}
         <a href="#home" className="back-to-top">

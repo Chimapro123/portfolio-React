@@ -207,6 +207,41 @@ function Projects() {
 
           </div>
         </article>
+                 {/* Project 3 */}
+        <article className="project-card">
+          <div className="project-content">
+
+            <p className="project-number">07</p>
+
+            <h3>Bailord App</h3>
+
+            <p>
+Bailord is a modern technology and lifestyle company providing quality smartphones, tablets, laptops, audio devices, power solutions, and smart accessories. They  also offer energy solutions and property services, helping individuals and businesses access reliable technology, power, and real estate solutions in one trusted platform.
+            </p>
+
+            <div className="project-tech">
+              <span>React</span>
+              <span>html5</span>
+              <span>css</span>
+               <span>GitHub</span>
+              <span>node.js</span>
+              <span>Rest APIs</span>
+             
+            </div>
+
+            <div className="project-links">
+              <a href="https://chimapro123.github.io/Bailord-app/" download target="_blank" rel="noopener noreferrer">
+                Live Demo ↗
+              </a>
+
+              <a href="https://github.com/Chimapro123/Bailord-app" target="_blank" rel="noopener noreferrer">
+                GitHub ↗
+              </a>
+            </div>
+
+          </div>
+        </article>
+
 
  
        </div>
@@ -309,7 +344,7 @@ function Projects() {
             </div>
 
             <div className="project-links">
-              <a href="/SCHOOLms.exe" download target="_blank" rel="noopener noreferrer">
+              <a href="https://chimapro123.github.io/portfolio/SCHOOLms.exe" download target="_blank" rel="noopener noreferrer">
                  Download SMS ↗
               </a>
 
@@ -379,11 +414,11 @@ function Projects() {
             </div>
 
             <div className="project-links">
-              <a href="" target="_blank" rel="noopener noreferrer">
+              <a href="https://chimapro123.github.io/portfolio/BMS.exe" download target="_blank" rel="noopener noreferrer">
                 Download BMS ↗
               </a>
 
-              <a href="#" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Chimapro123" target="_blank" rel="noopener noreferrer">
                 GitHub ↗
               </a>
             </div>
