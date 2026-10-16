@@ -230,7 +230,7 @@ body {
 @media (max-width: 600px) {
   .theme-toggle {
     right: 16px !important;
-    bottom: 18px !important;
+    bottom: 65px !important;
 
     min-width: 44px !important;
     min-height: 44px !important;
