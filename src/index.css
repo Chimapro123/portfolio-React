@@ -1176,12 +1176,14 @@ button {
 .project-links {
   display: flex;
   gap: 20px;
+
 }
 
 .project-links a {
   font-size: 0.9rem;
   font-weight: 600;
-  color: #111111;
+  background: var(--surface-bg);
+    color: var(--text-primary);
   transition: opacity 0.3s ease;
 }
 
