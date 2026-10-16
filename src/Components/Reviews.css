@@ -2,8 +2,14 @@
     width: 100%;
     min-height: 100vh;
     padding: 80px 20px;
-    background: #f8f9fa;
+    /* background: #f8f9fa; */
+    background: var(--surface-bg);
+        color: var(--text-primary);
     box-sizing: border-box;
+}
+.reviews-page:hover{
+    transform: translateY(-5px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.08);
 }
 
 .reviews-container {
@@ -17,17 +23,22 @@
 .reviews-header {
     text-align: center;
     margin-bottom: 50px;
+    background: var(--surface-bg);
+        color: var(--text-primary);
 }
 
 .reviews-header h1 {
     margin: 0 0 10px;
     font-size: 42px;
-    color: #111827;
+  
+        color: var(--text-primary);
+    /* color: #111827; */
 }
 
 .reviews-header p {
     margin: 0;
-    color: #6b7280;
+    /* color: #6b7280; */
+ 
     font-size: 17px;
 }
 
@@ -35,10 +46,13 @@
 
 .review-form-card {
     width: 100%;
+    flex: 0 0 300px;
     max-width: 700px;
     margin: 0 auto 70px;
     padding: 30px;
-    background: #fff;
+    /* background: #f8f8f8; */
+    background: var(--surface-bg);
+        color: var(--text-primary);
     border-radius: 16px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
     box-sizing: border-box;
@@ -47,11 +61,15 @@
 .review-form-card h2 {
     margin: 0 0 25px;
     font-size: 25px;
-    color: #111827;
+    background: var(--surface-bg);
+        color: var(--text-primary);
+    /* color: #111827; */
 }
 
 .review-input-group {
     display: flex;
+    background: var(--surface-bg);
+        color: var(--text-primary);
     flex-direction: column;
     margin-bottom: 20px;
 }
@@ -60,7 +78,9 @@
     margin-bottom: 8px;
     font-size: 14px;
     font-weight: 600;
-    color: #374151;
+    background: var(--surface-bg);
+        color: var(--text-primary);
+    /* color: #374151; */
 }
 
 .review-input-group input,
@@ -69,8 +89,10 @@
     padding: 13px 15px;
     border: 1px solid #d1d5db;
     border-radius: 10px;
-    background: #fff;
-    color: #111827;
+    /* background: #fff;
+    color: #111827; */
+    background: var(--surface-bg);
+        color: var(--text-primary);
     font-size: 15px;
     outline: none;
     box-sizing: border-box;
@@ -94,8 +116,10 @@
     padding: 14px 20px;
     border: none;
     border-radius: 10px;
-    background: #111827;
-    color: white;
+    /* background: #111827;
+    color: white; */
+    background: var(--surface-bg);
+        color: var(--text-primary);
     font-size: 15px;
     font-weight: 600;
     cursor: pointer;
@@ -115,29 +139,61 @@
     margin: 15px 0 0;
     text-align: center;
     font-size: 14px;
-    color: #374151;
+    /* color: #374151; */
+    background: var(--surface-bg);
+        color: var(--text-primary);
 }
 
 /* REVIEWS */
 
 .reviews-section {
     width: 100%;
+    flex: 0 0 300px;
+}
+
+/* Optional: hide scrollbar */
+.reviews-section::-webkit-scrollbar {
+    display: none;
+}
+
+.reviews-section {
+    scrollbar-width: none;
 }
 
 .reviews-section-header {
     margin-bottom: 25px;
+    width: 100%;
+        overflow-x: auto;
+        overflow-y: hidden;
+    
+        display: flex;
+        flex-wrap: nowrap;
+        gap: 20px;
+    
+        scroll-behavior: smooth;
+        -webkit-overflow-scrolling: touch;
+    
+        padding: 20px 10px;
 }
+
+
 
 .reviews-section-header h2 {
     margin: 0;
     font-size: 28px;
-    color: #111827;
+    margin-left:30rem;
+    background: var(--surface-bg);
+        color: var(--text-primary);
+        
+    /* color: #111827; */
 }
 
 .reviews-status {
     text-align: center;
     padding: 30px;
-    color: #6b7280;
+    background: var(--surface-bg);
+        color: var(--text-primary);
+    /* color: #6b7280; */
 }
 
 /* HORIZONTAL REVIEW CARDS */
@@ -168,7 +224,9 @@
     flex: 0 0 320px;
     min-height: 220px;
     padding: 25px;
-    background: #fff;
+    /* background: #fff; */
+    background: var(--surface-bg);
+        color: var(--text-primary);
     border-radius: 16px;
     border: 1px solid #e5e7eb;
     box-sizing: border-box;
@@ -187,7 +245,9 @@
 .review-person h3 {
     margin: 0 0 5px;
     font-size: 18px;
-    color: #111827;
+    background: var(--surface-bg);
+        color: var(--text-primary);
+    /* color: #111827; */
 }
 
 .review-person a {
@@ -195,6 +255,8 @@
     color: #2563eb;
     text-decoration: none;
     word-break: break-word;
+    background: var(--surface-bg);
+        color: var(--text-primary);
 }
 
 .review-person a:hover {
@@ -203,13 +265,17 @@
 
 .review-text {
     margin: 20px 0;
-    color: #4b5563;
+    /* color: #4b5563; */
+    background: var(--surface-bg);
+        color: var(--text-primary);
     font-size: 15px;
     line-height: 1.7;
 }
 
 .review-card small {
-    color: #9ca3af;
+    /* color: #9ca3af; */
+    background: var(--surface-bg);
+        color: var(--text-primary);
     font-size: 12px;
 }
 /* =========================
@@ -221,7 +287,9 @@
     max-width: 700px;
     margin: 0 auto 60px;
     padding: 25px;
-    background: #ffffff;
+    /* background: #ffffff; */
+    background: var(--surface-bg);
+        color: var(--text-primary);
     border: 1px solid #e5e7eb;
     border-radius: 16px;
     box-sizing: border-box;
@@ -229,7 +297,9 @@
 
 .admin-section h2 {
     margin: 0 0 20px;
-    color: #111827;
+    /* color: #111827; */
+    background: var(--surface-bg);
+        color: var(--text-primary);
 }
 
 .admin-login-form {
@@ -241,8 +311,10 @@
     padding: 13px 20px;
     border: none;
     border-radius: 10px;
-    background: #111827;
-    color: #ffffff;
+    /* background: #111827;
+    color: #ffffff; */
+    background: var(--surface-bg);
+        color: var(--text-primary);
     font-size: 15px;
     font-weight: 600;
     cursor: pointer;
@@ -310,7 +382,70 @@
 }
 
 .delete-review-btn:hover {
-    background: #b91c1c;
+    background: #ff3d02;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+}
+/* =========================================
+   SLOW AUTOMATIC REVIEW SCROLLING
+   ========================================= */
+
+/* Review cards scroll horizontally */
+.reviews-list {
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    gap: 20px;
+
+    scroll-behavior: auto;
+    -webkit-overflow-scrolling: touch;
+
+    /* Keep your existing scrollbar styling */
+    scroll-snap-type: x proximity;
+
+
+        flex-wrap: nowrap;
+        gap: 20px;
+    
+        width: 100%;
+    
+        scroll-behavior: auto;
+        scroll-snap-type: none;
+        -webkit-overflow-scrolling: touch;
+}
+
+/* Keep each card at its intended width */
+.reviews-list .review-card {
+    flex: 0 0 320px;
+    scroll-snap-align: start;
+}
+
+/* Pause visually when users hover over a review */
+.reviews-list:hover {
+    cursor: grab;
+}
+
+/* Smaller cards on tablets */
+@media (max-width: 768px) {
+    .reviews-list .review-card {
+        flex-basis: 290px;
+    }
+}
+
+/* Smaller cards on phones */
+@media (max-width: 480px) {
+    .reviews-list .review-card {
+        flex-basis: 270px;
+    }
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+    .reviews-list {
+        scroll-behavior: auto;
+    }
 }
 
 /* MOBILE */

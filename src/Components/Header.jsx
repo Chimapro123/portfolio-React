@@ -16,7 +16,7 @@ function Header() {
   return ( <header className="header">
 
     <a href="#home" className="logo" onClick={closeMenu} onMouseEnter={() => setShowLogoMessage(true)} onMouseLeave={() => setShowLogoMessage(false)} >
-<span   className="logo-tech">→   </span>
+{/* <span   className="logo-tech">→   </span> */}
       <span className="logo-D">D</span> <span className="logo-tech">tech</span>
 
       {showLogoMessage && ( <span className="logo-tooltip"> Hi,Do you like what you see?</span> )} </a>

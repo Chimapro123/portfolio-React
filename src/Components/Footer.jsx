@@ -91,6 +91,22 @@ emailjs
         <a href="#contact">Contact</a>
 
       </nav>
+   
+    <div className="footer-art" aria-hidden="true">
+      <div className="footer-orbit orbit-one"> </div>
+      <div className="footer-orbit orbit-two"></div>
+
+      <div className="footer-orb orb-one"></div>
+      <div className="footer-orb orb-two"></div>
+      <div className="footer-orb orb-three"></div>
+      <div className="footer-orb orb-four"></div>
+
+      <div className="footer-core"></div>
+
+      <span className="footer-dot dot-one"></span>
+      <span className="footer-dot dot-two"></span>
+      <span className="footer-dot dot-three"></span>
+    </div>
 
 
       {/* =========================
@@ -101,7 +117,7 @@ emailjs
         <a   href="https://wa.me/2348038897836"
           // target="_blank"
           rel="noopener noreferrer"
-       ><p>© 2026 Dtech. All rights reserved.</p></a>
+       ><p>© 2026 Dtech/companies. All rights reserved.</p></a>
 
         {/* Back to top button */}
         <a href="#home" className="back-to-top">
@@ -109,6 +125,7 @@ emailjs
         </a>
 
       </div>
+
 
 
       {/* ==================================================

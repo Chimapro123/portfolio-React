@@ -142,8 +142,10 @@ function ContactMe() {
 
 
         </div>
-
+        
+<hr />
     </section>
+    
   )
 }
 

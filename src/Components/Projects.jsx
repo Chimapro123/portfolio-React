@@ -230,11 +230,46 @@ Bailord is a modern technology and lifestyle company providing quality smartphon
             </div>
 
             <div className="project-links">
-              <a href="https://chimapro123.github.io/GATDABLESS-GROUP/" download target="_blank" rel="noopener noreferrer">
+              <a href="https://chimapro123.github.io/Bailord-app/" download target="_blank" rel="noopener noreferrer">
                 Live Demo ↗
               </a>
 
-              <a href="https://github.com/Chimapro123/GATDABLESS-GROUP" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Chimapro123/Bailord-app" target="_blank" rel="noopener noreferrer">
+                GitHub ↗
+              </a>
+            </div>
+
+          </div>
+        </article>
+          {/* Project 5 */}
+        <article className="project-card">
+          <div className="project-content">
+
+            <p className="project-number">08</p>
+
+            <h3>More projects coming soon!</h3>
+
+            <p>
+         I am building advanced, efficient, and scalable digital solutions that solve real-world problems. I look forward to bringing my technical skills and innovative mindset to a forward-thinking team.
+            </p>
+
+            <div className="project-tech">
+              <h5>Targeted Technologies:</h5>
+              <hr />
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Vite</span>
+              <span>Tailwind CSS v4</span>
+              <span>React Router</span>
+              <span>Responsiveness</span>
+            </div>
+
+            <div className="project-links">
+              <a href="https://chimapro123.github.io/portfolio/helen.html" target="_blank" rel="noopener noreferrer">
+                Live Demo ↗
+              </a>
+
+              <a href="https://github.com/Chimapro123/portfolio/blob/main/helen.html" target="_blank" rel="noopener noreferrer">
                 GitHub ↗
               </a>
             </div>

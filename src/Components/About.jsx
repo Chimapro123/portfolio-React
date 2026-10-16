@@ -45,19 +45,19 @@ function About() {
           <div className="info-box">
             <h3>Frontend</h3>
             <p>React, JavaScript, HTML & CSS</p>
-            <hr />
+         
           </div>
 
           <div className="info-box">
             <h3>Tools</h3>
             <p>Git, GitHub, Vite & VS Code</p>
-            <hr />
+          
           </div>
 
           <div className="info-box">
             <h3>Goal</h3>
             <p>Build great products and grow with a strong team</p>
-            <hr />
+            
           </div>
            <div className="info-box">
             <h3>Backend</h3>
@@ -72,7 +72,7 @@ function About() {
   <li>Git/GitHub — version control</li>
   <li>Python — scripting and automation</li>
 </ul>
-<hr />
+
           </div>
 
         </div>

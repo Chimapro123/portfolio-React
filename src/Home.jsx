@@ -46,13 +46,18 @@ function Home() {
                 words={[
                   "UI/UX Design",
                   "Web Development",
-                  "React Development",
+                  "Web application",
+                  "C programming",
                   "JavaScript",
+                  "TypeScript",
                   "Responsive Design",
                   "Python Programming",
                   "Generative AI",
                   "Problem Solving",
                   "Team Collaboration",
+                  "Vite",
+                  "Tailwind CSS v4",
+                  "And advancing fast!",
                 ]}
                 loop={true}
                 cursor
