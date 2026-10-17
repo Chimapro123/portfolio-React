@@ -102,6 +102,7 @@ function Header() {
               </a>
             </li>
 
+            
 <li>
   <a
     href={`${import.meta.env.BASE_URL}Chima%20David%20Eze%20-%20Junior%20Developer%20Resume.pdf`}
@@ -113,6 +114,9 @@ function Header() {
     <span>View Resume</span>
   </a>
 </li>
+
+
+
 
 
           </ul>
