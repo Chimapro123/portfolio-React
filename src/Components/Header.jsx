@@ -102,9 +102,9 @@ function Header() {
               </a>
             </li>
 
-            <li>
+<li>
   <a
-    href="https://chimapro123.github.io/portfolio/resume.png"
+    href={`${import.meta.env.BASE_URL}Chima%20David%20Eze%20-%20Junior%20Developer%20Resume.pdf`}
     target="_blank"
     rel="noopener noreferrer"
     onClick={closeMenu}
@@ -113,6 +113,7 @@ function Header() {
     <span>View Resume</span>
   </a>
 </li>
+
 
           </ul>
         </nav>
