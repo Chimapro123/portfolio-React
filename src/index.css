@@ -1151,6 +1151,84 @@ button {
   color: #666666;
   line-height: 1.7;
 }
+/* Project card */
+.project-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  height: 100%;
+}
+
+/* Rectangular screenshot container */
+.project-image-wrapper {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #eeeeee;
+  margin-bottom: 20px;
+}
+
+/* Make the entire screenshot clickable */
+.project-image-link {
+  display: block;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+/* Display screenshot without cropping it */
+.card-image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  object-position: center;
+  transition: transform 0.3s ease;
+}
+
+/* Subtle zoom when users hover */
+.project-image-link:hover .card-image {
+  transform: scale(1.03);
+}
+
+/* Project number sits in front of the image */
+.project-image-wrapper .image-number {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  z-index: 2;
+  margin: 0;
+  padding: 7px 12px;
+  border-radius: 8px;
+  border: 1px solid #ff0303;
+  background: rgba(255, 255, 255, 0);
+    /* background: var(--surface-bg);
+      /* color: var(--text-primary); */ 
+  color:#ff0000;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+  pointer-events: none;
+  /* box-shadow: 0 10px 25px rgb(10, 6, 6); */
+}
+
+:root[data-theme="dark"] .project-number.image-number {
+  background: rgba(255, 255, 255, 0);
+  color: #ff4000;
+}
+
+/* Keep project information in its own space */
+.project-content {
+  position: relative;
+  z-index: 1;
+  min-width: 0;
+}
+
+.project-content h3 {
+  margin-top: 0;
+}
 
 /* Technology badges */
 .project-tech {
@@ -1171,6 +1249,7 @@ button {
   background-color: #2c2c2c;
   color: #dddddd;
 }
+
 
 /* Project links */
 .project-links {
@@ -1397,11 +1476,8 @@ background-color: white;
   height:50%;
   padding: 60px 8% 25px;
 
-  /* background-color: #111111; */
-
-    /* background: var(--surface-bg); */
       color: var(--text-primary);
-  /* color: #ffffff; */
+
 }
 
 /* extral art 16th october */
@@ -1555,7 +1631,7 @@ background-color: white;
 .footer-brand {
   max-width: 1100px;
   margin: 0 auto;
-    background: var(--surface-bg);
+    /* background: var(--surface-bg); */
       color: var(--text-primary);
   text-align: center;
 }
@@ -1564,7 +1640,7 @@ background-color: white;
   width: 130px;
   height: 50px;
   display: inline-block;
-    background: var(--surface-bg);
+    /* background: var(--surface-bg); */
       color: var(--text-primary);
   /* background-color: #e3e0e0f6; */
   border-radius: 10px;
@@ -1573,10 +1649,11 @@ background-color: white;
   font-weight: 700;
 }
 
+
 .footer-brand p {
   color: #b5b5b5;
   font-size: 0.95rem;
-    background: var(--surface-bg);
+    /* background: var(--surface-bg); */
       color: var(--text-primary);
 }
 
@@ -1588,13 +1665,13 @@ background-color: white;
   justify-content: center;
   flex-wrap: wrap;
   gap: 25px;
-      background: var(--surface-bg);
+      /* background: var(--surface-bg); */
         color: var(--text-primary);
 }
 
 .footer-nav a {
   /* color: #dddddd; */
-      background: var(--surface-bg);
+      /* background: var(--surface-bg); */
         color: var(--text-primary);
   font-size: 0.95rem;
   transition: color 0.3s ease;
@@ -1614,23 +1691,23 @@ background-color: white;
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-      background: var(--surface-bg);
+      /* background: var(--surface-bg); */
         color: var(--text-primary);
         margin: bottom 2rem;
 }
 
 .footer-bottom p {
   /* color: #999999; */
-  background: var(--surface-bg);
+  /* background: var(--surface-bg); */
     color: var(--text-primary);
   font-size: 0.85rem;
-      background: var(--surface-bg);
+      /* background: var(--surface-bg); */
         color: var(--text-primary);
 }
 
 .footer-bottom a {
   /* color: #dddddd; */
-      background: var(--surface-bg);
+      /* background: var(--surface-bg); */
         color: var(--text-primary);
   font-size: 0.85rem;
   transition: color 0.3s ease;

@@ -13,44 +13,89 @@ function Projects() {
       {/* Projects grid */}
       <div className="projects-grid">
 
-        {/* Project 1 */}
-        <article className="project-card">
-          <div className="project-content">
+       
+{/* Project 1 */}
+<article className="project-card">
 
-            <p className="project-number">01</p>
+  {/* Screenshot with project number on top */}
+  <div className="project-image-wrapper">
+     <a
+    href={`${import.meta.env.BASE_URL}comfy%20client.png`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="project-image-link"
+    aria-label="Open full ComfyClient screenshot"
+  >
+    <img
+      src={`${import.meta.env.BASE_URL}comfy%20client.png`}
+      alt="ComfyClient website screenshot"
+      className="card-image"
+      loading="lazy"
+    />
+  </a>
 
-            <h3>ComfyClient</h3>
+    <p className="project-number image-number">01</p>
+  </div>
 
-            <p>
-              A modern e-commerce website designed for selling couches
-              online with a clean and user-friendly shopping experience.
-            </p>
+  {/* Project information stays below the image */}
+  <div className="project-content">
+    <h3>ComfyClient</h3>
 
-            <div className="project-tech">
-                <span>HTML</span>
-              <span>CSS</span>
-              <span>JavaScript</span>
-              <span>Responsive Web Design</span>
-            </div>
+    <p>
+      A modern e-commerce website designed for selling couches
+      online with a clean and user-friendly shopping experience.
+    </p>
 
-            <div className="project-links">
-              <a href="https://chimapro123.github.io/ComfyClient-app/" target="_blank" rel="noopener noreferrer">
-                Live Demo ↗
-              </a>
+    <div className="project-tech">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>JavaScript</span>
+      <span>Responsive Web Design</span>
+    </div>
 
-              <a href="https://github.com/Chimapro123/ComfyClient-app" target="_blank" rel="noopener noreferrer">
-                GitHub ↗
-              </a>
-            </div>
+    <div className="project-links">
+      <a
+        href="https://chimapro123.github.io/ComfyClient-app/"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Live Demo ↗
+      </a>
 
-          </div>
-        </article>
+      <a
+        href="https://github.com/Chimapro123/ComfyClient-app"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        GitHub ↗
+      </a>
+    </div>
+  </div>
+
+</article>
 
         {/* Project 2 */}
         <article className="project-card">
-          <div className="project-content">
+         
+          <div className="project-image-wrapper">
+  <a
+    href={`${import.meta.env.BASE_URL}chi%20shop.png`}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Open full Chi Shop screenshot"
+    className="project-image-link"
+  >
+    <img
+      src={`${import.meta.env.BASE_URL}chi%20shop.png`}
+      alt="Chi Shop website screenshot"
+      className="card-image"
+      loading="lazy"
+    />
+  </a>
 
-            <p className="project-number">02</p>
+  <p className="project-number image-number">02</p>
+</div>
+              <div className="project-content">
 
             <h3>Chi-Shop</h3>
 
@@ -82,10 +127,26 @@ function Projects() {
 
         {/* Project 3 */}
         <article className="project-card">
-          <div className="project-content">
+        
+           <div className="project-image-wrapper">
+  <a
+    href={`${import.meta.env.BASE_URL}careydave.png`}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Open full CareyDave screenshot"
+    className="project-image-link"
+  >
+    <img
+      src={`${import.meta.env.BASE_URL}careydave.png`}
+      alt="CareyDave website screenshot"
+      className="card-image"
+      loading="lazy"
+    />
+  </a>
 
-            <p className="project-number">03</p>
-
+  <p className="project-number image-number">03</p>
+</div>
+  <div className="project-content">
             <h3>CareryDave</h3>
 
             <p>
@@ -116,9 +177,26 @@ function Projects() {
         </article>
         {/* Project 4 */}
         <article className="project-card">
-          <div className="project-content">
 
-            <p className="project-number">04</p>
+          <div className="project-image-wrapper">
+  <a
+    href={`${import.meta.env.BASE_URL}former%20potfrolio.png`}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Open full Former Portfolio screenshot"
+    className="project-image-link"
+  >
+    <img
+      src={`${import.meta.env.BASE_URL}former%20potfrolio.png`}
+      alt="Former portfolio website screenshot"
+      className="card-image"
+      loading="lazy"
+    />
+  </a>
+
+  <p className="project-number image-number">04</p>
+</div>
+          <div className="project-content">
 
             <h3>My Former Portfolio</h3>
 
@@ -147,10 +225,26 @@ function Projects() {
         </article>
           {/* Project 5 */}
         <article className="project-card">
+<div className="project-image-wrapper">
+  <a
+    href={`${import.meta.env.BASE_URL}hcare.png`}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Open full HCare screenshot"
+    className="project-image-link"
+  >
+    <img
+      src={`${import.meta.env.BASE_URL}hcare.png`}
+      alt="HCare website screenshot"
+      className="card-image"
+      loading="lazy"
+    />
+  </a>
+
+  <p className="project-number image-number">05</p>
+</div>
+
           <div className="project-content">
-
-            <p className="project-number">05</p>
-
             <h3>HCare.</h3>
 
             <p>
@@ -178,9 +272,28 @@ function Projects() {
         </article>
         {/* Project 6 */}
         <article className="project-card">
+          
+          <div className="project-image-wrapper">
+  <a
+    href={`${import.meta.env.BASE_URL}gaddabless%20group.png`}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Open full Gatdabless Group screenshot"
+    className="project-image-link"
+  >
+    <img
+      src={`${import.meta.env.BASE_URL}gaddabless%20group.png`}
+      alt="Gatdabless Group website screenshot"
+      className="card-image"
+      loading="lazy"
+    />
+  </a>
+
+  <p className="project-number image-number">06</p>
+</div>
+
           <div className="project-content">
 
-            <p className="project-number">06</p>
 
             <h3>GATDABLESS GROUP — Corporate Website</h3>
 
@@ -207,12 +320,30 @@ function Projects() {
 
           </div>
         </article>
-                 {/* Project 3 */}
+                 {/* Project 7 */}
         <article className="project-card">
+
+          
+<div className="project-image-wrapper">
+  <a
+    href={`${import.meta.env.BASE_URL}baillord.png`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="project-image-link"
+    aria-label="Open full Bailord project screenshot"
+  >
+    <img
+      src={`${import.meta.env.BASE_URL}baillord.png`}
+      alt="Bailord website screenshot"
+      className="card-image"
+      loading="lazy"
+    />
+  </a>
+
+  <p className="project-number image-number">07</p>
+</div>
+
           <div className="project-content">
-
-            <p className="project-number">07</p>
-
             <h3>Bailord App</h3>
 
             <p>
@@ -241,13 +372,29 @@ Bailord is a modern technology and lifestyle company providing quality smartphon
 
           </div>
         </article>
-          {/* Project 5 */}
+          {/* Project 8 */}
         <article className="project-card">
+
+          <div className="project-image-wrapper">
+  <a
+    href={`${import.meta.env.BASE_URL}more%21%21.jpg`}
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Open full project screenshot"
+    className="project-image-link"
+  >
+    <img
+      src={`${import.meta.env.BASE_URL}more%21%21.jpg`}
+      alt="Project website screenshot"
+      className="card-image"
+      loading="lazy"
+    />
+  </a>
+
+  <p className="project-number image-number">08</p>
+</div>
           <div className="project-content">
-
-            <p className="project-number">08</p>
-
-            <h3>More projects coming soon!</h3>
+            <h3> coming soon!</h3>
 
             <p>
          I am building advanced, efficient, and scalable digital solutions that solve real-world problems. I look forward to bringing my technical skills and innovative mindset to a forward-thinking team.
