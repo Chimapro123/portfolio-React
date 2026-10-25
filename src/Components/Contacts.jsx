@@ -142,6 +142,14 @@ function ContactMe() {
 
 
         </div>
+            <a href="#home"
+        target='_blank'
+        rel='noopener noreferrer'
+        className='contact-link active'
+        arial-label='active'>
+
+        
+        </a>
         
 <hr />
     </section>

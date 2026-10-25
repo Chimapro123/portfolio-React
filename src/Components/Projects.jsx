@@ -372,7 +372,60 @@ Bailord is a modern technology and lifestyle company providing quality smartphon
 
           </div>
         </article>
-          {/* Project 8 */}
+
+                 {/* Project 7 */}
+        <article className="project-card">
+
+          
+<div className="project-image-wrapper">
+  <a
+    href={`${import.meta.env.BASE_URL}Suavy Beauty.png`}
+    target="_blank"
+    rel="noopener noreferrer"
+    className="project-image-link"
+    aria-label="Open full Bailord project screenshot"
+  >
+    <img
+      src={`${import.meta.env.BASE_URL}Suavy Beauty.png`}
+      alt="Bailord website screenshot"
+      className="card-image"
+      loading="lazy"
+    />
+  </a>
+
+  <p className="project-number image-number">08</p>
+</div>
+
+          <div className="project-content">
+            <h3>Suavy Beauty</h3>
+
+            <p>
+Suavy Beauty is a modern e-commerce  cusmetic website, i built it with mordern web development tools and got a supabase as backend to accept subscribers email.
+            </p>
+
+            <div className="project-tech">
+              <span>javascripts</span>
+              <span>html5</span>
+              <span>css</span>
+               <span>GitHub</span>
+              <span>Supabase</span>
+             
+            </div>
+
+            <div className="project-links">
+              <a href="https://chimapro123.github.io/SUAVY-BEAUTY-BEAUTY-ABOVE-ALL/"
+              target="_blank" rel="noopener noreferrer">
+                Live Demo ↗
+              </a>
+
+              <a href="https://github.com/Chimapro123/SUAVY-BEAUTY-BEAUTY-ABOVE-ALL/" target="_blank" rel="noopener noreferrer">
+                GitHub ↗
+              </a>
+            </div>
+
+          </div>
+        </article>
+          {/* Project 9 */}
         <article className="project-card">
 
           <div className="project-image-wrapper">
@@ -391,7 +444,7 @@ Bailord is a modern technology and lifestyle company providing quality smartphon
     />
   </a>
 
-  <p className="project-number image-number">08</p>
+  <p className="project-number image-number">09</p>
 </div>
           <div className="project-content">
             <h3> coming soon!</h3>
